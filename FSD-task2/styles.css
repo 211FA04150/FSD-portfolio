@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+    color: #333;
+    background-image: url('pngtree-pink-playful-abstract-portfolio-memphis-image_593407.jpg'); /* Add your background image here */
+    background-size: cover;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    backdrop-filter: blur(10px); /* Blurred background effect */
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #ff914d;
+    border-radius: 20px 20px 0 0;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(135deg, #f093fb, #f5576c);
+}
+
+.profile-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 4px solid white;
+}
+
+.header-content h1 {
+    font-size: 2.5rem;
+    color: white;
+}
+
+.header-content p {
+    color: white;
+    font-weight: bold;
+}
+
+/* Main Content */
+.main-content {
+    display: flex;
+    padding: 40px;
+}
+
+.left-section, .right-section {
+    width: 50%;
+    padding: 30px;
+}
+
+.left-section {
+    background-color: #fff2e6;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.right-section h2 {
+    color: #ff914d;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+a {
+    color: #ff914d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.skills ul, .contact p {
+    color: #333;
+}
+
+.skills ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ff914d;
+}
+.hobbies {
+    margin-top: 30px;
+}
+
+.hobby-icons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.hobby-icons i {
+    font-size: 2rem;
+    color: #ff914d;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #ff914d;
+    border-radius: 0 0 20px 20px;
+    margin-top: 20px;
+    color: white;
+}
